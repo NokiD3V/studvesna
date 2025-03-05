@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Phorssa';
+	src: url('./fonts/phorssa.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/phorssa.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/phorssa.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/phorssa.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/phorssa.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/phorssa.svg#phorssa') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'Czizh';
+	src: url('./fonts/Czizh.ttf'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/Czizh.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+	font-family: 'Czizh-Body';
+	src: url('./fonts/czizh-body.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/czizh-body.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/czizh-body.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/czizh-body.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/czizh-body.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/czizh-body.svg#czizh-body') format('svg'); /* Chrome < 4, Legacy iOS */
+}

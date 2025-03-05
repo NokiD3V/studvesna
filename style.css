@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20000px;
+    background-color: #121010;
+    color: #E8CAC6;
+    font-family: 'Czizh-Body';
+}
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.content{
+    width: 90vw;
+}
+.head__block{
+    background: url("./images/head.png");
+    height: 80vw;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+.lent{
+    width: 100%;
+    position: absolute;
+    display: block;
+    top: 80vw;
+    z-index: -1;
+}
+.overlay{
+    position: absolute;
+    width: 100vw;
+    z-index: 10;
+}
+.title{
+    margin-top: 5vw;
+    display: block;
+    font-family: 'Phorssa';
+    color: #E2897D;
+    font-size: 12vw;
+    text-align: center;
+    height: 25vw;
+    z-index: 5;
+}
+.annotation__text{
+    color: #E8CAC6;
+    font-size: 4vw;
+    font-family: 'Czizh-Body';
+}
+#span__colored__1{
+    color: #E8CAC6;
+}
+#span__colored__2{
+    color: #F29696;
+
+}
+
+.annotation__text>p{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+.authors{
+    font-family: 'Czizh-Body';
+    width: 100%;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.author__block{
+    width: 45%;
+    font-size: 4vw;
+}
+.author__title{
+    font-family: 'Phorssa';
+    color: #E2897D;
+    font-size: 5vw;
+    text-align: center;
+}
+.author__text{
+    margin-top: 10px;
+}
+.author__text #author__bold{
+    font-weight: 900;
+    font-size: 4vw;
+}
+ul{
+    margin-block-start: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+li{
+    list-style-type: none;
+    font-size: 4vw;
+}
+
+
+.number__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.number__block .author__text{
+    margin-bottom: 20px;
+}
+.n__block__title{
+    font-family: 'Phorssa';
+    color: #E2897D;
+    font-size: 5vw;
+    text-align: center;
+}
+.n__block__content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.n__block__content.b-left{
+    flex-direction: row;
+}
+.n__block__content.b-right{
+    flex-direction: row-reverse;
+    text-align: right;
+}
+.n__block__content img{
+    width: 50%;
+    height: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.n__block__content img#first{
+    margin-left: -10vw;
+    width: 50%;
+    mix-blend-mode: color-dodge;
+}
+#second li{
+    font-size: 3vw;
+}

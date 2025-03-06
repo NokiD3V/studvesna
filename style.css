@@ -46,12 +46,12 @@ main{
     z-index: -1;
 }
 .overlay{
-    position: absolute;
+    position: fixed;
     width: 100vw;
     z-index: 5;
     pointer-events: none;
-    max-height: 4580px;
-    min-height: 4580px;
+    /* max-height: 4580px;
+    min-height: 4580px; */
 
 }
 .title{

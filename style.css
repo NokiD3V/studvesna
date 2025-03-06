@@ -14,7 +14,7 @@ body{
 .all__blocks{
     display:flex;
     flex-direction: column;
-
+    
 }
 main{
     width: 100vw;
@@ -29,6 +29,7 @@ main{
 .content{
     width: 90vw;
     /* max-width: 480px; */
+    background-color: #121010;
 }
 .head__block{
     background: url("./images/head.png");
@@ -43,16 +44,18 @@ main{
     position: absolute;
     display: block;
     top: 80vw;
-    z-index: -1;
+    z-index: 0;
 }
 .overlay{
     position: fixed;
     width: 100vw;
+    height: 100vh;
+    opacity: 0.4;
     z-index: 5;
     pointer-events: none;
     /* max-height: 4580px;
     min-height: 4580px; */
-
+    
 }
 .title{
     margin-top: 5vw;
@@ -123,6 +126,7 @@ li{
     flex-direction: column;
     align-items: center;
     margin-bottom: 70px;
+    background-color: #121010;
 }
 .number__block .author__text{
     margin-bottom: 20px;
@@ -138,6 +142,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .n__block__content.b-left{
     flex-direction: row;
@@ -155,10 +160,13 @@ li{
     margin-left: 10px;
     margin-right: 10px;
 }
-.n__block__content img#first{
-    margin-left: -10vw;
+img#first{
+    /* transform: translateX(-10vw); */
     width: 50%;
-    mix-blend-mode: color-dodge;
+    mix-blend-mode:color-dodge;
+    /* background-color: transparent; */
+    /* background-color: #121010; */
+    background-blend-mode: color-dodge;
 }
 #second li{
     font-size: 3vw;

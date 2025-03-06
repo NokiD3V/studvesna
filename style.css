@@ -28,7 +28,7 @@ main{
 }
 .content{
     width: 90vw;
-    max-width: 480px;
+    /* max-width: 480px; */
 }
 .head__block{
     background: url("./images/head.png");
